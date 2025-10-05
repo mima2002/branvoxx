@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brandvoxx</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="/assest/css/brandvoxx.css"/>
+  <link rel="stylesheet" href="/assest/css/brandvoxx-query.css"/>
+  <link rel="stylesheet" href="/assest/libary/fontawesome-free-6.7.2-web/css/all.min.css" />
+</head>
+<body id="body">
+<header id="header">
+    <nav>
+      <div class="logo">
+        <img src="/assest/image/logo8.jpg">
+      </div>
+          <ul   class="nav" id="nav">
+              <li><a href="/index.html">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+              <li><a href="#service">Service</a></li>
+              <li><a href="#pricing">Pricing</a></li>
+              <a class="contact-btn" href="#contact">Contact</a>
+          </ul>
+  
+      <div class="hamburger" id="hamburger" aria-label="Toggle Navigation">
+        <span class="line line1"></span>
+        <span class="line line2"></span>
+        <span class="line line3"></span>
+      </div>
+    </nav>
+    
+  </header>
+ <section class="hero">
+  <div class="hero-content" id="hero">
+    <h1>Amplifying Brands,<br>Maximizing Influence</h1>
+    <p class="scroll-animation">
+      Expert branding and marketing solutions<br>
+      to elevate your brand's voice, expand your reach, and amplify your influence.
+    </p>
+
+    <div class="input-button">
+      <input type="text" placeholder="What do you want" />
+      <button class="openPopup">Book Service</button>
+    </div>
+  </div>
+
+  <!-- Hero Designs -->
+  <div class="hero-design" id="herodesign">
+    <img class="design2" src="/assest/image/triangle.png" alt="Triangle Design" />
+    <img class="design1" src="/assest/image/lines.png" alt="Lines Design" />
+    <img class="design3" src="/assest/image/arrow.png" alt="Arrow Design" />
+  </div>
+
+  <!-- Hero Image -->
+  <div class="hero-image scroll-animation" id="im">
+    <img src="/assest/image/hero-image.png" alt="Smiling Woman" />
+  </div>
+</section>
+
+<!-- Popup Overlay -->
+<div id="overlay" class="overlay">
+  <div id="modal" class="modal">
+    <span id="closePopup" class="close-btn">&times;</span>
+    <h2 id="modalTitle">Contact</h2>
+
+    <input id="name" type="text" placeholder="Name">
+    <small class="error" id="nameError"></small>
+
+    <input id="email" type="email" placeholder="Email">
+    <small class="error" id="emailError"></small>
+
+    <input id="phone" type="tel" placeholder="Phone Number">
+    <small class="error" id="phoneError"></small>
+
+    <textarea id="message" placeholder="Message"></textarea>
+    <small class="error" id="messageError"></small>
+
+    <button id="hoverbtn">Submit</button>
+    <p id="successMsg" class="success"></p>
+  </div>
+</div>
+
+
+  <section class="key">
+    <h2 class="section-title scroll-animation">Key <span>Service</span></h2>
+    <div class="key-container">
+      <div class="key-card scroll-animation">
+        <div class="icon">
+          <i class="fas fa-bullhorn"></i>
+        </div>
+        <h3>Brand Amplification</h3>
+        <p>Boost your brand’s presence and reputation with our expert strategy and design key.</p>
+      </div>
+      <div class="key-card scroll-animation">
+        <div class="icon">
+          <i class="fas fa-mobile-alt"></i>
+        </div>
+        <h3>Digital Influence</h3>
+        <p>Reach and engage your audience with our social media, content, and influencer marketing key.</p>
+      </div>
+      <div class="key-card scroll-animation">
+        <div class="icon">
+          <i class="fas fa-comments"></i>
+        </div>
+        <h3>Communication</h3>
+        <p>Build strong communication with your audience, and create a stronger bond that lasts a lifetime.</p>
+      </div>
+    </div>
+  </section>
+ <section>
+  <div class="why-choose-us">
+    <div class="sub-why-choose-us">
+      <h2 class="section-title scroll-animation">Why <span>Choose</span> Us</h2>
+    </div>
+    <div class="why-choose-us-body">
+      <div class="why-choose-us-col">
+        <div class="why-choose-us-item scroll-animation">
+          <h3>Expertise You Can Trust</h3>
+          <p>Boost your brand's presence and reputation with our expert strategy and design services.</p>
+        </div>
+        <div class="why-choose-us-item scroll-animation">
+          <h3>Results That Speak</h3>
+          <p>From increased visibility to measurable engagement, our work drives real impact — not just likes, but loyalty.</p>
+        </div>
+      </div>
+      <div class="why-choose-us-img scroll-animation">
+        <img class="why-choose-us-img" src="/assest/image/why-choose-us.png" alt="">
+      </div>
+      <div class="why-choose-us-col">
+        <div class="why-choose-us-item scroll-animation">
+          <h3>Tailor to You</h3>
+          <p>No copy-paste solutions here. We craft custom branding and<br> marketing strategies aligned with<br> your unique goals and audience.</p>
+        </div>
+        <div class="why-choose-us-item scroll-animation">
+          <h3>Partner, Not Vendor</h3>
+          <p>We walk with you. Our collaborative approach means we grow together,<br> ensuring long-term success beyond<br> the launch.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <section class="testimonial">
+    <div class="slider-container slider-nav">
+      <!-- Radio buttons for slides -->
+      <input type="radio" name="slider" id="slide1" checked>
+      <input type="radio" name="slider" id="slide2">
+      <input type="radio" name="slider" id="slide3">
+      <input type="radio" name="slider" id="slide4">
+      <div class="section-T">
+        <h2 class="section-title scroll-animation">What Our <span>Clients</span> Thinks About Us</h2>
+      </div>
+      <div class="slides scroll-animation">
+        <!-- Slide 1 -->
+        <div class="slide slide1">
+          <div class="box">
+            <div class="box1">
+              <h3>Blake</h3>
+              <p>Management</p>
+              <div class="boxicon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <div class="quote">
+              <img src="/assest/image/blake.jpg" alt="">
+            </div>
+          </div>
+          <div class="side-paragraph">
+            <p>Working with BrandVoxx <br>elevated our entire visual<br> identity. Now we’re attracting <br>investors and partners<br> like never before.</p>
+          </div>
+          <div class="boxa">
+            <div class="box1">
+              <h3>Tech Pass<br> Africa</h3>
+              <p>Management</p>
+              <div class="boxicon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <div class="quote">
+              <img src="/assest/image/techpass 2.png" alt="">
+            </div>
+          </div>
+          <div class="side-paragraph">
+            <p>They didn’t just market<br> us—they understood us. <br>Every campaign felt aligned<br> with our voice and values.</p>
+          </div>
+        </div>
+        <!-- Slide 2 -->
+        <div class="slide slide2">
+          <div class="box">
+            <div class="box1">
+              <h3>WOW</h3>
+              <p>Management</p>
+              <div class="boxicon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <div class="quote">
+              <img src="/assest/image/wow 2.png" alt="">
+            </div>
+          </div>
+          <div class="side-paragraph">
+            <p>From branding to SEO,<br> BrandVoxx gave our startup<br> a powerful and professional<br> digital presence.</p>
+          </div>
+          <div class="box">
+            <div class="box1">
+              <h3>Ticare</h3>
+              <p>Management</p>
+              <div class="boxicon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <div class="quote">
+              <img src="/assest/image/ticare1 3.png" alt="">
+            </div>
+          </div>
+          <div class="side-paragraph">
+            <p>What stood out was the<br> strategy and storytelling.<br> Our brand is becoming more<br> than a product;it is turning<br> into a movement.</p>
+          </div>
+        </div>
+        <!-- Slide 3 -->
+        <div class="slide slide3">
+          <div class="box">
+            <div class="box1">
+              <h3>Acro Paddy</h3>
+              <p>Management</p>
+              <div class="boxicon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <div class="quote">
+              <img src="/assest/image/agropaddy.png" alt="">
+            </div>
+          </div>
+          <div class="side-paragraph">
+            <p>The content team nailed<br> our vibe. Every visual, <br>caption, and ad felt authentic<br> and impactful.</p>
+          </div>
+          <div class="boxg">
+            <div class="box1">
+              <h2>Tech Hub<br> Port-Harcourt <br>Team</h2>
+              <p>Management</p>
+              <div class="boxico">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <div class="quoteup">
+              <img src="/assest/image/techup-ph.jpg" alt="">
+            </div>
+          </div>
+          <div class="side-paragraph">
+            <p>BrandVoxx handled our event<br> branding and marketing with <br>incredible professionalism. <br>We hit record turnout numbers!<br>. From flyers to volunteer <br>coordination and social buzz;<br> BrandVoxx delivered a flawless<br> experience end-to</p>
+          </div>
+        </div>
+        <!-- Slide 4 -->
+        <div class="slide slide4">
+          <div class="box">
+            <div class="box1">
+              <h3>TechGear</h3>
+              <p>Management</p>
+              <div class="boxicon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <div class="quote">
+              <img src="/assest/image/gear 7.png" alt="">
+            </div>
+          </div>
+          <div class="side-paragraph">
+            <p>Your platform made it easy<br> for me to learn and apply<br> new tech skills.Now I'm <br>confident building websites <br>and managing freelance<br> projects.</p>
+          </div>
+          <div class="boxt">
+            <div class="box1">
+              <h3>Tech<br> Tan <br>Innovation</h3>
+              <p>Management</p>
+              <div class="boxicon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <div class="quote">
+              <img src="/assest/image/techtan (1).jpg" alt="">
+            </div>
+          </div>
+          <div class="side-paragraph">
+            <p>Your tech solutions helped<br> me automate my business<br> operations.Now I save hours<br> every week and focus more<br> on creativity</p>
+          </div>
+        </div>
+      </div>
+      <!-- Navigation dots -->
+      <div class="nav-dots">
+        <label for="slide1"></label>
+        <label for="slide2"></label>
+        <label for="slide3"></label>
+        <label for="slide4"></label>
+      </div>
+    </div>
+  </section>
+
+  <section class="servicesbrand" id="service">
+    <h2 class="section-title scroll-animation">Our <span>Services</span></h2>
+
+    <div class="service-box scroll-animation">
+      <div class="image">
+        <img src="/assest/image/brand 0.png " alt="Branding">
+      </div>
+      <div class="content" id="branding">
+        <h3>Branding & Identity</h3>
+        <p>We create logos, messaging, and brand elements that tell<br> your story, build trust, and make your brand unforgettable.</p>
+        <a href="#" class="btn openPopup">Book Service</a>
+      </div>
+    </div>
+
+    <div class="service-box reverse scroll-animation">
+      <div class="image">
+        <img src="/assest/image/Branding 1.png " alt="Website and SEO">
+      </div>
+      <div class="content" id="digital-marketing">
+        <h3>Digital Marketing</h3>
+        <p>We boost your online presence through smart ads, social media strategy, and PR that connect you with the right audience.</p>
+        <a href="#" class="btn openPopup">Book Service</a>
+      </div>
+    </div>
+
+    <div class="service-box scroll-animation">
+      <div class="image">
+        <img src="/assest/image/Branding 2.png  " alt="Branding">
+      </div>
+      <div class="content" id="content-creation">
+        <h3>Content Creation Making</h3>
+        <p>From scroll-stopping visuals to powerful storytelling, we craft content that engages, informs, and drives real results for your brand.</p>
+        <a href="#" class="btn openPopup">Book Service</a>
+      </div>
+    </div>
+
+    <div class="service-box reverse scroll-animation" >
+      <div class="image">
+        <img src="/assest/image/Branding 3.png  " alt="Website and SEO">
+      </div>
+      <div class="content" id="event-marketing">
+        <h3>Event Marketing & volunteers Manager</h3>
+        <p>We boost your online presence through smart ads, social<br> media strategy, and PR that connect you with the right <br>audience.</p>
+        <a href="#" class="btn openPopup">Book Service</a>
+      </div>
+    </div>
+
+    <div class="service-box scroll-animation">
+      <div class="image">
+        <img src="/assest/image/Branding 4.png  " alt="Branding">
+      </div>
+      <div class="content" id="political-influence">
+        <h3>Political & Corporate Influence</h3>
+        <p>We shape public perception with expert political branding, influence-building, and crisis management tailored for campaigns and corporate entities alike.</p>
+        <a href="#" class="btn openPopup">Book Service</a>
+      </div>
+    </div>
+
+    <div class="service-box reverse scroll-animation">
+      <div class="image">
+        <img src="/assest/image/Branding 5.png " alt="Website and SEO">
+      </div>
+      <div class="content" id="website-seo">
+        <h3>Website & SEO </h3>
+        <p>We design responsive websites and optimize SEO to help your audience find, explore, and trust your brand effortlessly online.</p>
+        <a href="#" class="btn openPopup">Book Service</a>
+      </div>
+    </div>
+
+    <div class="service-box scroll-animation">
+      <div class="image">
+        <img src="/assest/image/Branding 6.png " alt="Branding">
+      </div>
+      <div class="content" id="custom-service">
+        <h3>Custom Service</h3>
+        <p>Need something unique? We offer reputation management, consulting, and custom strategies designed specifically around your brand’s unique needs.</p>
+        <a href="#" class="btn openPopup">Book Service</a>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="grow scroll-animation">
+    <h2 class="section-title scroll-animation">Growing Your brand with <span>Brandvoxx</span></h2>
+    <p class="p scroll-animation">A 4 Step Journey</p>
+    <div class="grow-container scroll-animation">
+      <div class="grow-card">
+        <div class="icon1">
+          <i class="fas fa-bullhorn"></i>
+        </div>
+        <h3>Discover Your Brand</h3>
+        <p>Uncover what makes you unique and define a voice that connects deeply</p>
+      </div>
+      <div class="grow-card">
+        <h3>Develop Your Brand Strategy</h3>
+        <p>Craft a clear, goal-driven roadmap to position, grow, and sustain your brand.</p>
+        <div class="icon">
+          <i class="fas fa-mobile-alt"></i>
+        </div>
+      </div>
+      <div class="grow-card">
+        <div class="icon1">
+          <i class="fas fa-comments"></i>
+        </div>
+        <h3>Amplify Your Presence</h3>
+        <p>Boost visibility across platforms with content, campaigns, and creative that demands attention.</p>
+      </div>
+      <div class="grow-card">
+        <h3>Optimize & Refine</h3>
+        <p>Continuously improve strategies using data, insights, and feedback to scale your brand.</p>
+        <div class="icon">
+          <i class="fas fa-comments"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pricepack scroll-animation" id="pricing">
+  <div class="price-title">
+    <h2>Pricing <span>Package</span></h2>
+    <div class="price-packbtn">
+      <a href="#" class="price-btn active">Monthly</a>
+      <a href="#" class="price-btnwhite">Yearly</a>
+    </div>
+  </div>
+
+  <div class="pricing-con">
+    <!-- Monthly pricing -->
+    <div class="pricing-monthly active">
+      <!-- Bronze -->
+      <div class="pricing-container">
+        <div class="price">
+          <h3>Bronze Package</h3>
+          <p>For: Startups, personal brands, small businesses just starting out</p>
+          <h5>₦100,000<span>/monthly</span></h5>
+          <hr>
+          <ul class="pricing-icon">
+            <li><i class="fa-solid fa-circle-check"></i> Branding & Identity</li>
+            <li><i class="fa-solid fa-circle-check"></i> Content Creation (2 visuals/week)</li>
+            <li><i class="fa-solid fa-circle-check"></i> Social Media Management (3 platforms)</li>
+            <li><i class="fa-solid fa-circle-check"></i> Email Marketing (2 campaigns/month)</li>
+            <li><i class="fa-solid fa-circle-check"></i> Optimization (Basic)</li>
+            <li><i class="fa-solid fa-circle-check"></i> Custom Service (limited support)</li>
+          </ul>
+          <hr>
+          <div class="btn-pack openPopup"><a href="#" class="btn">Choose Package</a></div>
+        </div>
+      </div>
+
+      <!-- Silver -->
+      <div class="pricing-container">
+        <div class="price">
+          <h3>Silver Package</h3>
+          <p>For: Growing brands looking to increase their reach and engagement</p>
+          <h5>₦250,000<span>/monthly</span></h5>
+          <hr>
+          <ul class="pricing-icon">
+            <li><i class="fa-solid fa-circle-check"></i> All in Bronze</li>
+            <li><i class="fa-solid fa-circle-check"></i> Content Marketing (2 visuals/week)</li>
+            <li><i class="fa-solid fa-circle-check"></i> Social Media Management (Up to 5 platforms including YouTube)</li>
+            <li><i class="fa-solid fa-circle-check"></i> Email Marketing & Automation (4 campaigns/month)</li>
+            <li><i class="fa-solid fa-circle-check"></i> Website Development (Landing page or 5-page site)</li>
+            <li><i class="fa-solid fa-circle-check"></i> Event Marketing / Publicity (2 events/year)</li>
+            <li><i class="fa-solid fa-circle-check"></i> Brand Audit & Competitive Analysis (Basic)</li>
+            <li><i class="fa-solid fa-circle-check"></i> 1 Article on one national daily (online) every month</li>
+          </ul>
+          <hr>
+          <div class="btn-pack openPopup"><a href="#" class="btn">Choose Package</a></div>
+        </div>
+      </div>
+
+      <!-- Gold -->
+      <div class="pricing-container">
+        <h1>Popular</h1>
+        <div class="price">
+          <h3>Gold Package</h3>
+          <p>For: Established brands looking to scale and dominate their market</p>
+          <h5>₦500,000<span>/monthly</span></h5>
+          <hr>
+          <ul class="pricing-icon">
+            <li><i class="fa-solid fa-circle-check"></i> All in Silver</li>
+            <li><i class="fa-solid fa-circle-check"></i> Digital Marketing (paid Ads: 2 campaigns/month)</li>
+            <li><i class="fa-solid fa-circle-check"></i> Volunteers Marketing (Event-based)</li>
+            <li><i class="fa-solid fa-circle-check"></i> SEO Optimization (Advanced)</li>
+            <li><i class="fa-solid fa-circle-check"></i> Marketing & Partnership Strategy</li>
+            <li><i class="fa-solid fa-circle-check"></i> Website Maintenance</li>
+            <li><i class="fa-solid fa-circle-check"></i> Political OR Corporate Influence (Pick one)</li>
+            <li><i class="fa-solid fa-circle-check"></i> Brand Workshops & Team Training (1 session/quarter)</li>
+            <li><i class="fa-solid fa-circle-check"></i> Articles on two national dailies (online) every month</li>
+            <li><i class="fa-solid fa-circle-check"></i> 1 Article on a blog every month</li>
+          </ul>
+          <hr>
+          <div class="btn-pack openPopup"><a href="#" class="btn">Choose Package</a></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Yearly pricing -->
+    <div class="pricing-yearly">
+      <!-- Bronze -->
+      <div class="pricing-container">
+        <div class="price">
+          <h3>Bronze Package</h3>
+          <p>For: Startups, personal brands, small businesses just starting out</p>
+          <h5>₦1,000,000<span>/yearly</span></h5>
+          <hr>
+          <ul class="pricing-icon">
+            <li><i class="fa-solid fa-circle-check"></i> Branding & Identity</li>
+            <li><i class="fa-solid fa-circle-check"></i> Content Creation (2 visuals/week)</li>
+            <li><i class="fa-solid fa-circle-check"></i> Social Media Management (3 platforms)</li>
+            <li><i class="fa-solid fa-circle-check"></i> Email Marketing (2 campaigns/month)</li>
+            <li><i class="fa-solid fa-circle-check"></i> Optimization (Advanced)</li>
+            <li><i class="fa-solid fa-circle-check"></i> Custom Service (priority support)</li>
+          </ul>
+          <hr>
+          <div class="btn-pack openPopup"><a href="#" class="btn">Choose Package</a></div>
+        </div>
+      </div>
+
+      <!-- Silver -->
+      <div class="pricing-container">
+        <div class="price">
+          <h3>Silver Package</h3>
+          <p>For: Growing brands looking to increase their reach and engagement</p>
+          <h5>₦2,500,000<span>/yearly</span></h5>
+          <hr>
+          <ul class="pricing-icon">
+            <li><i class="fa-solid fa-circle-check"></i> All in Bronze</li>
+            <li><i class="fa-solid fa-circle-check"></i> Content Marketing (2 visuals/week)</li>
+            <li><i class="fa-solid fa-circle-check"></i> Social Media Management (Up to 5 platforms including YouTube)</li>
+            <li><i class="fa-solid fa-circle-check"></i> Email Marketing & Automation (4 campaigns/month)</li>
+            <li><i class="fa-solid fa-circle-check"></i> Website Development (Landing page or 5-page site)</li>
+            <li><i class="fa-solid fa-circle-check"></i> Event Marketing / Publicity (2 events/year)</li>
+            <li><i class="fa-solid fa-circle-check"></i> Brand Audit & Competitive Analysis (Basic)</li>
+            <li><i class="fa-solid fa-circle-check"></i> 1 Article on one national daily (online) every month</li>
+          </ul>
+          <hr>
+          <div class="btn-pack openPopup"><a href="#" class="btn">Choose Package</a></div>
+        </div>
+      </div>
+
+      <!-- Gold -->
+      <div class="pricing-container">
+        <h1>Popular</h1>
+        <div class="price">
+          <h3>Gold Package</h3>
+          <p>For: Established brands looking to scale and dominate their market</p>
+          <h5>₦5,000,000<span>/yearly</span></h5>
+          <hr>
+          <ul class="pricing-icon">
+            <li><i class="fa-solid fa-circle-check"></i> All in Silver</li>
+            <li><i class="fa-solid fa-circle-check"></i> Digital Marketing (paid Ads: 2 campaigns/month)</li>
+            <li><i class="fa-solid fa-circle-check"></i> Volunteers Marketing (Event-based)</li>
+            <li><i class="fa-solid fa-circle-check"></i> SEO Optimization (Advanced)</li>
+            <li><i class="fa-solid fa-circle-check"></i> Marketing & Partnership Strategy</li>
+            <li><i class="fa-solid fa-circle-check"></i> Website Maintenance</li>
+            <li><i class="fa-solid fa-circle-check"></i> Political OR Corporate Influence (Pick one)</li>
+            <li><i class="fa-solid fa-circle-check"></i> Brand Workshops & Team Training (1 session/quarter)</li>
+            <li><i class="fa-solid fa-circle-check"></i> Articles on two national dailies (online) every month</li>
+            <li><i class="fa-solid fa-circle-check"></i> 1 Article on a blog every month</li>
+          </ul>
+          <hr>
+          <div class="btn-pack openPopup"><a href="#" class="btn">Choose Package</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <section  class="contact scroll-animation" id="contact">
+    <h2 class="section-title scroll-animation" >Contact <span>Service</span></h2>
+    <p class="scroll-animation">We are one-step away</p>
+    <div class="contact-container scroll-animation">
+      <div class="contact-card">
+        <div class="icon">
+         <i class="fa-solid fa-location-dot"></i>
+        </div>
+        <p>Elzazi Plaza, Opposite wesham filling station, gbalaja Woji Port Harcourt</p>
+      </div>
+      <div class="contact-card" id="email">
+        <div class="icon">
+           <i class="fa-solid fa-message"></i>
+        </div>
+        <p >brandvoxx@harvoxx.com</p>
+      </div>
+      <div class="contact-card" id="phone">
+        <div class="icon">
+          <i class="fa-solid fa-phone"></i>
+        </div>
+        <p >+234 8056879505</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer-pack">
+    <div class="footer">
+      <ul>
+        <li><img class="footer-img scroll-animation" src="/assest/image/logo8.jpg " alt="Smiling Woman" /> </li>
+        <li><p>Expert branding & marketing<br> solutions to elevate your<br> brand's voice, expand your <br>reach, and amplify your influence.</p></li>
+      </ul>
+      <ul>
+        <li><a href="#company" class="link-title">Company</a></li>
+        <li><a href="/index.html" class="link">Home</a></li>
+        <li><a href="/about.html" class="link">About Us</a></li>
+        <li><a href="#service" class="link">Service</a></li>
+        <li><a href="#pricing" class="link">Pricing</a></li>
+      </ul>
+       <ul>
+        <li><a href="#service" class="link-title">Service</a></li>
+        <li><a href="#branding" class="link">Branding</a></li>
+        <li><a href="#digital-marketing" class="link">Digital Marketing</a></li>
+        <li><a href="#content-creation" class="link">Content creation & Marketing</a></li>
+        <li><a href="#political-influence" class="link">Political Influence</a></li>
+        <li><a href="#website-seo" class="link">Website & SEO</a></li>
+        <li><a href="#custom-service" class="link">Custom Service</a></li>
+      </ul>
+      <ul>
+        <li><a href="#contact" class="link-title" >Contact</a></li>
+        <li><a href="#phone" class="link">+234 8056879505</a></li>
+        <li><a href="#email" class="link">Branvoxx@gmail.com</a></li>
+      </ul>
+    </div>
+    <div class="copyright">
+    <h5>Copyright-Brandvoxx</h5> 
+    <div class="footericon">
+    <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+    <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BrGUiXx7GR5iiUvNJLYT2Jg%3D%3D" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>  
+    </div>
+    </div>
+  </section>
+  
+
+  <script type="module" src="/assest/javascript/havoxx.js"></script>
+</body>
+</html>
