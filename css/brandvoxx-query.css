@@ -672,5 +672,11 @@ padding: 0 50px;
   font-size: 22px;
 }
 
+  .input-button {
+    padding left: 16px;
+    padding right: 16px;
+  }
+
 }
+
 
