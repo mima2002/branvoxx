@@ -677,6 +677,10 @@ padding: 0 50px;
     padding right: 16px;
   }
 
+  .input-button input {
+    width: 100%
+  }
 }
+
 
 
