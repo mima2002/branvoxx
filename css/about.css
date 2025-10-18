@@ -17,7 +17,7 @@ section{
 
 .about-text{
     width: 70%;
-    color: white;
+    color: black;
     text-shadow: white 0px 0px 1px;
     display: flex;
     flex-direction: column;
@@ -156,4 +156,5 @@ padding-right: 70px;
 .value-card p {
   font-size: 14px;
   color:#444;
+
 }
